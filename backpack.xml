@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="backpack.xsl"?> 
 <item name="Backpack" weight="1402" totalWeight="1402">
-    <item name="Lowe Airzone Trail 35L Hiking Pack" weight="1250"/>
+    <item name="Lowe Airzone Trail 35L Hiking Pack" weight="1240"/>
     <item name="First Aid" totalWeight="162">
         <item name="Care Plus First Aid Kit Basic" weight="151"/>
-        <item name="Care Plus Ticks-2-Go" weight="20"/>
+        <item name="Care Plus Ticks-2-Go" weight="11"/>
     </item>
+
 </item>
