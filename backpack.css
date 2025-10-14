@@ -1,0 +1,41 @@
+/* Styling for the list structure */
+#inventory-tree, .nested {
+    list-style-type: none;
+    padding-left: 15px;
+    font-family: Arial, sans-serif;
+}
+p {
+    margin: 3px 0;
+}
+.weight-info {
+    color: #6c757d; /* Muted gray for weight info */
+}
+
+/* HIDE the nested lists by default */
+.nested {
+    display: none;
+}
+/* Show the list when the 'active' class is added by JavaScript */
+.active {
+    display: block;
+}
+
+/* Style for the Toggler Icon (the [−]/[+] box) */
+.toggler {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection on icon */
+    font-weight: bold;
+    color: #007bff; /* Blue color for the icon */
+    padding-right: 5px;
+    display: inline-block;
+}
+
+/* Show the [+] symbol when closed */
+.toggler::before {
+    content: "[+]";
+}
+
+/* Show the [−] symbol when open (when toggler-down class is active) */
+.toggler.toggler-down::before {
+    content: "[-]";
+}
